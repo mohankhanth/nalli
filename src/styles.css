@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+/* .arrivas01 .owl-theme .owl-nav { background: #000;} */
+.wrapbanners01 { width: 100%; float: left; background: #eeecea; padding: 20px 0px;}
+.bannertxts01 { width: 100%; float: left;}
+.bannertxts01 h2 { font-weight: normal; color: #000; font-size: 43px; text-transform: uppercase;
+    padding: 0px; margin: 0px;}
+.bannertxts01 h2 span { font-weight: bold; color: #f00;}
+
+.arrivas01 { position: relative;}
+.arrivas01 .owl-theme .owl-nav [class*=owl-] { background: none;}
+.arrivas01 .owl-theme .owl-nav .owl-prev,
+.arrivas01 .owl-theme .owl-nav .owl-next { position: absolute; top: 30%;}
+.arrivas01 .owl-theme .owl-nav .owl-prev { left: -61px;}
+.arrivas01 .owl-theme .owl-nav .owl-next { right: -61px;}
+
+.headings01 { width: 100%; float: left; padding: 15px 10px; position: relative; overflow: hidden; text-align: center;
+  margin: 25px 0px;}
+.headings01::before, .headings01::after
+ { content: ''; position: absolute; left: 0px; border-top: 2px dashed #ccc;
+      width: 100%;}
+.headings01::before { top: 33px;}
+.headings01::after { bottom: 25px;}
+.headings01 h2 { text-transform: uppercase; font-weight: bold; position: relative; background: #fff;
+    display: inline; padding: 10px 30px; z-index: 9;}
+
+.card { position: relative; overflow: hidden; padding:0px;}
+.ficons01 { display: flex; justify-content: space-around; padding: 10px 5px;}
+.ficons01 .fa { font-size: 23px; color: #c1c1c1;}
+
+.wraptrdgs01 { position: relative; overflow: hidden;}
+.abtrngs01 { position: absolute; bottom: 0px; left: 10px;}
+.abtrngs01 h2 { font-size: 25px; color: #fff; margin: 0px; padding: 0px 0px 0px;}
+.abtrngs01 h5 { font-size: 25px; font-weight: 700; color: #fff; margin: 0px; padding: 0px 0px 0px;}
+.abtrngs01 p { font-size: 18px; color: #fff; margin: 0px; padding: 0px 0px 0px; font-weight: 600;}
