@@ -11,6 +11,8 @@ import { RecentlyViewdComponent } from './components/recently-viewd/recently-vie
 import { SimilarProductsComponent } from './components/similar-products/similar-products.component';
 import { TrendingComponent } from './components/trending/trending.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { BannerComponent } from './components/banner/banner.component';
     RecentlyViewdComponent,
     SimilarProductsComponent,
     TrendingComponent,
-    BannerComponent
+    BannerComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
