@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { ProductsService } from 'src/app/services/products.service';
+import { ProductsService } from '../../services/products.service';
 
 import { Arrivals } from '../../model/arrivals';
 
